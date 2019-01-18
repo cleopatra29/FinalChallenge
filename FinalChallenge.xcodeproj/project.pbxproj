@@ -14,6 +14,8 @@
 		5D8CA73F21F1AF0E009D8087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CA73E21F1AF0E009D8087 /* Assets.xcassets */; };
 		5D8CA74221F1AF0E009D8087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8CA74021F1AF0E009D8087 /* LaunchScreen.storyboard */; };
 		618288348518CDD449901450 /* Pods_FinalChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF215D5C3DE8C3E8CF320E9 /* Pods_FinalChallenge.framework */; };
+		BEF3BBBC21F1C17C00EB881E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3BBBB21F1C17C00EB881E /* LoginVC.swift */; };
+		BEF3BBBE21F1C8E500EB881E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3BBBD21F1C8E500EB881E /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5D8CA74121F1AF0E009D8087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D8CA74321F1AF0E009D8087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A3AF03B6E4D93082B502CE /* Pods-FinalChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF3BBBB21F1C17C00EB881E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BEF3BBBD21F1C8E500EB881E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				5D8CA73421F1AF0D009D8087 /* AppDelegate.swift */,
+				BEF3BBBB21F1C17C00EB881E /* LoginVC.swift */,
 				5D8CA73621F1AF0D009D8087 /* ViewController.swift */,
+				BEF3BBBD21F1C8E500EB881E /* HomeVC.swift */,
 				5D8CA73821F1AF0D009D8087 /* Main.storyboard */,
 				5D8CA73E21F1AF0E009D8087 /* Assets.xcassets */,
 				5D8CA74021F1AF0E009D8087 /* LaunchScreen.storyboard */,
@@ -241,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8CA73721F1AF0D009D8087 /* ViewController.swift in Sources */,
+				BEF3BBBE21F1C8E500EB881E /* HomeVC.swift in Sources */,
 				5D8CA73521F1AF0D009D8087 /* AppDelegate.swift in Sources */,
+				BEF3BBBC21F1C17C00EB881E /* LoginVC.swift in Sources */,
 				5D8CA73D21F1AF0D009D8087 /* FinalChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
