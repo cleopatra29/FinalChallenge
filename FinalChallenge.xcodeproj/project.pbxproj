@@ -16,6 +16,7 @@
 		618288348518CDD449901450 /* Pods_FinalChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF215D5C3DE8C3E8CF320E9 /* Pods_FinalChallenge.framework */; };
 		BEF3BBBC21F1C17C00EB881E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3BBBB21F1C17C00EB881E /* LoginVC.swift */; };
 		BEF3BBBE21F1C8E500EB881E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF3BBBD21F1C8E500EB881E /* HomeVC.swift */; };
+		BEF3BBC021F1D36500EB881E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEF3BBBF21F1D36500EB881E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B2A3AF03B6E4D93082B502CE /* Pods-FinalChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalChallenge/Pods-FinalChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		BEF3BBBB21F1C17C00EB881E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BEF3BBBD21F1C8E500EB881E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BEF3BBBF21F1D36500EB881E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				5D8CA74021F1AF0E009D8087 /* LaunchScreen.storyboard */,
 				5D8CA74321F1AF0E009D8087 /* Info.plist */,
 				5D8CA73B21F1AF0D009D8087 /* FinalChallenge.xcdatamodeld */,
+				BEF3BBBF21F1D36500EB881E /* GoogleService-Info.plist */,
 			);
 			path = FinalChallenge;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				5D8CA74221F1AF0E009D8087 /* LaunchScreen.storyboard in Resources */,
 				5D8CA73F21F1AF0E009D8087 /* Assets.xcassets in Resources */,
 				5D8CA73A21F1AF0D009D8087 /* Main.storyboard in Resources */,
+				BEF3BBC021F1D36500EB881E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

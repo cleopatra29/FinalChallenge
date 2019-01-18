@@ -56,7 +56,7 @@
                     <connections>
                         <outlet property="emailTF" destination="Sd6-UZ-72U" id="baq-Kc-4pM"/>
                         <outlet property="passwordTF" destination="Yab-aU-ctD" id="0jv-tt-csL"/>
-                        <segue destination="4UA-tw-oUd" kind="show" id="t9d-FZ-Iov"/>
+                        <segue destination="4UA-tw-oUd" kind="show" identifier="Login-Home" id="t9d-FZ-Iov"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
